@@ -1,0 +1,5 @@
+Q3.Problems:
+Logistics-Q3-4-3.dzn: Logistic-Q3.mzn was able to generate a solution for this problem in a 10 seconds.
+Logistics-Q3-6-3.dzn: Logistic-Q3.mzn was able to generate a solution for this problem in a 2-3 minutes.
+Logistics-Q3-12-4.dzn: was not able to generate a solution in 5mins.
+Logistics-Q3-21-8.dzn: Was not able to generate an answer in 5 mins.

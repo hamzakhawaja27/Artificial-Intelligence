@@ -1,0 +1,9 @@
+U6019739
+Q2.Problems:
+Logistics-Q2-4-3.dzn: Logistic-Q2.mzn was able to generate a solution for this problem in a few seconds.
+Logistics-Q2-6-3.dzn: Logistic-Q2.mzn was able to generate a solution for this problem in a few seconds.
+Logistics-Q2-12-4.dzn: Logistic-Q2.mzn was able to generate a solution for this problem in a few seconds.
+Logistics-Q2-21-8.dzn: Was not able to generate an answer in 5 mins.
+
+With in Q2 folder there is another folder called extra which has two different ways of implementing the same method. Logistics-Q2 performs better than each of them in time
+and has relaxed constraints.

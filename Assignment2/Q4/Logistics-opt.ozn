@@ -1,0 +1,10 @@
+output ([((((show(T)++",")++show(C))++",")++show(int2float(tot_cost)/int2float(100)))++"\n"]++[((((((((show(t)++",")++show(ti))++",")++show(temp[t,ti]))++",")++show(solution[t,fix(temp[t,ti]),1]))++",")++show(solution[t,fix(temp[t,ti]),2]))++"\n" | t in trucks, ti in times, ])++["-------------------------"];
+int: C = 3;
+int: T = 6;
+set of int: trucks = 1..6;
+set of int: customers = 0..3;
+set of int: goods = 1..2;
+set of int: times = 0..4;
+int: tot_cost;
+array [trucks,customers,goods] of int: solution;
+array [trucks,times] of int: temp;

@@ -1,0 +1,3 @@
+U6019739
+Q1. My solution to Q1 was able to solve Logistics-Q1-4-3.dzn,Logistics-Q1-6-3.dzn, and Logistics-Q1-12-4.dzn in the time order of 2 to 5 secs. But was unable to solve
+and find results for  Logistics-Q1-21-8.dzn within 5 mins.

@@ -1,0 +1,18 @@
+U6019739
+Comments
+
+Logistics-LNS.py Optimizes all cases. Sometimes the program runs for more than 120secs. but it continually shows the current best solution on the terminal with the time taken to extract it.
+
+The logisticsQ4-4-3 case converges within 5secs
+The logisticsQ4-6-3 case converges within a min
+The logisticsQ4-12-4 doesnot converge but improves significantly
+The logisticsQ4-21-8 doesnot converge but improves significantly
+
+Algorithm works recursively
+In each iteration, the values for one of the trucks become constraints for the next iteration.
+e.g
+iteration 1: new constraints: All values of solution[truck=1,x,y] from previous iteration become constraints. and then a new solution is found.
+
+Once we have limited single truck solution values. We move on to restricting 2 at a time and then 3 and it goes on like this till time lapses. 
+
+
